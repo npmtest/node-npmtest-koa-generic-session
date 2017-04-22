@@ -1,6 +1,6 @@
 # npmtest-koa-generic-session
 
-#### basic test coverage for  koa-generic-session (v1.11.5)  [![npm package](https://img.shields.io/npm/v/npmtest-koa-generic-session.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koa-generic-session) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koa-generic-session.svg)](https://travis-ci.org/npmtest/node-npmtest-koa-generic-session)
+#### basic test coverage for  [koa-generic-session (v1.11.5)](https://github.com/koajs/generic-session#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-koa-generic-session.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-koa-generic-session) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-koa-generic-session.svg)](https://travis-ci.org/npmtest/node-npmtest-koa-generic-session)
 
 #### koa generic session store by memory, redis or others
 
@@ -35,20 +35,18 @@
 ```json
 
 {
-    "name": "koa-generic-session",
-    "description": "koa generic session store by memory, redis or others",
-    "repository": "koajs/generic-session",
-    "version": "1.11.5",
-    "files": [
-        "lib",
-        "index.js"
+    "author": {
+        "name": "dead_horse"
+    },
+    "bugs": {
+        "url": "https://github.com/koajs/generic-session/issues"
+    },
+    "contributors": [
+        {
+            "name": "dead_horse",
+            "url": "https://github.com/dead-horse"
+        }
     ],
-    "keywords": [
-        "koa",
-        "middleware",
-        "session"
-    ],
-    "author": "dead_horse <dead_horse@qq.com>",
     "dependencies": {
         "copy-to": "~2.0.1",
         "crc": "~3.4.0",
@@ -56,6 +54,7 @@
         "parseurl": "~1.3.1",
         "uid-safe": "~2.1.1"
     },
+    "description": "koa generic session store by memory, redis or others",
     "devDependencies": {
         "autod": "~2.1.3",
         "blanket": "*",
@@ -69,10 +68,40 @@
         "should": "~10.0.0",
         "supertest": "~2.0.1"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "430467152ccfc6f81baa944bad8683dd37df24ff",
+        "tarball": "https://registry.npmjs.org/koa-generic-session/-/koa-generic-session-1.11.5.tgz"
+    },
     "engines": {
         "node": ">= 0.11.9"
     },
-    "license": "MIT"
+    "files": [
+        "lib",
+        "index.js"
+    ],
+    "gitHead": "277226181b397016ba6446444cc53f923d0007dd",
+    "homepage": "https://github.com/koajs/generic-session#readme",
+    "keywords": [
+        "koa",
+        "middleware",
+        "session"
+    ],
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "dead_horse"
+        }
+    ],
+    "name": "koa-generic-session",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/koajs/generic-session.git"
+    },
+    "scripts": {},
+    "version": "1.11.5",
+    "bin": {}
 }
 ```
 
